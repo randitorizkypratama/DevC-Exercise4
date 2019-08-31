@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../DevC-Exercise1/index.html">Biodata</a></li>
+        <li><a href="./index.html">Kalkulator</a></li>
+        <li><a href="../DevC-Exercise3/index.html">Table</a></li>
+        <li><a href="../index.html">Form</a></li>
+
+    </ul>
+    <center>
+        <h1>Kalkulator</h1>
+    </center>
+    <div class="double">
+        <form name="Calc">
+
+            <input type="text" name="Input"></input>
+
+            <input type="button" value=" 7 " onclick="Calc.Input.value += '7'"></input>
+            <input type="button" value=" 8 " onclick="Calc.Input.value += '8'"></input>
+            <input type="button" value=" 9 " onclick="Calc.Input.value += '9'"></input>
+            <input type="button" value=" c " onclick="Calc.Input.value = ''"></input>
+            <input type="button" value=" 4 " onclick="Calc.Input.value += '4'"></input>
+            <input type="button" value=" 5 " onclick="Calc.Input.value += '5'"></input>
+            <input type="button" value=" 6 " onclick="Calc.Input.value += '6'"></input>
+            <input type="button" value=" / " onclick="Calc.Input.value += ' / '"></input>
+            <input type="button" value=" 1 " onclick="Calc.Input.value += '1'"></input>
+            <input type="button" value=" 2 " onclick="Calc.Input.value += '2'"></input>
+            <input type="button" value=" 3 " onclick="Calc.Input.value += '3'"></input>
+            <input type="button" value=" - " onclick="Calc.Input.value += ' - '"></input>
+            <input type="button" value=" 0 " onclick="Calc.Input.value += '0'"></input>
+            <input type="button" value=" + " onclick="Calc.Input.value += ' + '"></input>
+            <input type="button" value=" x " onclick="Calc.Input.value += ' * '"></input>
+            <input type="button" value=" = " onclick="Calc.Input.value = eval(Calc.Input.value)"></input>
+        </form>
+    </div>
+</body>
+
+</html>
